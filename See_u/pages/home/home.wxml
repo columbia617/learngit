@@ -1,0 +1,32 @@
+<!--pages/home/home1.wxml-->
+<text hidden>pages/home/home1.wxml</text>
+
+<image class="background" src="https://z3.ax1x.com/2021/08/12/fw4XUf.png">
+</image>
+<view class="container">
+    <navigator url="pages/index/index">
+        <image class="b1" src="https://z3.ax1x.com/2021/08/12/fwoUHI.png" 
+        mode="aspectFit">
+        
+        
+        </image>
+        <view class="tittle">
+            医生端
+        </view>
+           
+     </navigator>
+    <navigator url="pages/index/index">
+        <image class="b2" src="https://z3.ax1x.com/2021/08/12/fwotud.png" 
+        mode="aspectFit" lazy-load="false"  >
+        
+        
+        </image>
+        <view class="tittle">
+            家长端
+        </view>
+          
+    </navigator>
+      
+</view>
+    
+  

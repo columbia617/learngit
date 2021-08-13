@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index", 
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/selfinfo/selfinfo",
+    "pages/doctor/doctor",
+    "pages/parent/parent"
+   
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "See幼-婴幼儿智能评估系统",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+   
+ 
+  },
+  "tabBar": {
+    
+    "list": [ 
+    {
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "icon/home1.png",
+      "selectedIconPath": "icon/home1.png"
+      
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "医患",
+      "iconPath": "icon/yihuan1.png",
+      "selectedIconPath": "icon/yihuan1.png"
+      
+      
+    },
+    {
+      "pagePath": "pages/selfinfo/selfinfo",
+      "text": "个人中心",
+      "iconPath": "icon/user.png",
+      "selectedIconPath": "icon/user.png"
+    }
+  ]
+,
+"color":"#000080",
+"selectedColor":"#4169E1" 
+  },
+
+
+
+  "sitemapLocation": "sitemap.json"
+}

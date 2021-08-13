@@ -1,0 +1,42 @@
+.container{
+    height:100vh;
+    width:100%;
+    flex-direction: column;
+    position: absolute;
+  
+} 
+.background{
+  height:100vh;
+  width:100%;
+  position:absolute;
+}
+.b1{
+    width:206rpx;
+    height: 232rpx;
+    position:relative;
+    
+}
+.b2{
+    width: 265rpx;
+    height: 250rpx;
+    
+}
+.tittle{
+   display: flex;
+   justify-content: center;     
+   font-style: normal;
+   font-weight: bold;
+   font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #707070;
+}
+.navi1{
+  position:absolute;
+  top:340rpx;
+  left:220rpx;
+}
+.navi2{
+  position:absolute;
+  top:780rpx;
+  left:215rpx;
+}
